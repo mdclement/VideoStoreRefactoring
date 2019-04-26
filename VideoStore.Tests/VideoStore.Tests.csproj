@@ -5,9 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ApprovalTests" Version="3.0.18" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0-preview-20180924-03" />
     <PackageReference Include="NUnit" Version="3.10.1" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VideoStore.Core\VideoStore.Core.csproj" />
   </ItemGroup>
 
 </Project>
